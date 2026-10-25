@@ -4,24 +4,24 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = 'github-0.5.0-1';
+const CACHE_VERSION = 'github-0.6.0-1';
 /** @type {string} */
 const CACHE_PREFIX = '遗器回响 · 战斗雏形-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
-const OFFLINE_URL = 'index.offline.html';
+const OFFLINE_URL = 'game06.offline.html';
 /** @type {boolean} */
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["index.html","index.js","index.offline.html","index.audio.worklet.js","index.audio.position.worklet.js"];
+const CACHED_FILES = ["game06.html","game06.js","game06.offline.html","game06.audio.worklet.js","game06.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["index.wasm","index.pck"];
+const CACHEABLE_FILES = ["game06.wasm","game06.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 // Reassemble the official engine/data without a custom hosting API.
-const GAME_PARTS = {"index.pck": ["index.pck.gz.part0", "index.pck.gz.part1"], "index.wasm": ["index.wasm.gz.part0"]};
+const GAME_PARTS = {"game06.pck": ["game06.pck.gz.part0", "game06.pck.gz.part1"], "game06.wasm": ["game06.wasm.gz.part0"]};
 async function fetchGameAsset(request) {
  const address=new URL(request.url);
  const name=address.pathname.slice(address.pathname.lastIndexOf('/')+1);
@@ -37,7 +37,7 @@ async function fetchGameAsset(request) {
 }
 
 self.addEventListener('install', (event) => {
-	event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHED_FILES)));
+	event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(CACHED_FILES)).then(()=>self.skipWaiting()));
 });
 
 self.addEventListener('activate', (event) => {
@@ -48,7 +48,7 @@ self.addEventListener('activate', (event) => {
 		}
 	).then(function () {
 		// Enable navigation preload if available.
-		return ('navigationPreload' in self.registration) ? self.registration.navigationPreload.enable() : Promise.resolve();
+		return self.clients.claim().then(()=>('navigationPreload' in self.registration) ? self.registration.navigationPreload.enable() : Promise.resolve());
 	}));
 });
 

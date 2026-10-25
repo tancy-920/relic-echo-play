@@ -1,5 +1,5 @@
 {
-  "version": "0.5.0",
+  "version": "0.6.0",
   "status": "candidate_not_published",
   "threaded": true,
   "pwa": true,
@@ -8,65 +8,73 @@
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
+    "game06.144x144.png": {
+      "bytes": 8784,
+      "sha256": "1b42cde46e1ae4d1019bffc37f37c3dfaa106763a9f677c20fac1c11a95a4cf6"
+    },
+    "game06.180x180.png": {
+      "bytes": 13366,
+      "sha256": "c0d84139dec898418bade6f3250bd423b31c073477271d26b54cf5dcc4909875"
+    },
+    "game06.512x512.png": {
+      "bytes": 60113,
+      "sha256": "b8950bb1b80225e332507d01b9f2212dbb604f0a2ac720a2e4a0da2a785fc37d"
+    },
+    "game06.audio.position.worklet.js": {
+      "bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    "game06.audio.worklet.js": {
+      "bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    "game06.html": {
+      "bytes": 6180,
+      "sha256": "7c665b4346273f3f7ff08fbc303278fbc29413a75839806ac6e1ede0d8994712"
+    },
+    "game06.js": {
+      "bytes": 314653,
+      "sha256": "1e5437ee16d35bf6f8a3b28e6f70f310ee5da12acab3222a06e8c223cb61757c"
+    },
+    "game06.manifest.json": {
+      "bytes": 347,
+      "sha256": "8c5d2f742726d511f3aa3b271f0ab75bc1eed5d088ec40d33ea145f338ccd9d1"
+    },
+    "game06.offline.html": {
+      "bytes": 971,
+      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
+    },
+    "game06.pck.gz.part0": {
+      "bytes": 20971520,
+      "sha256": "359756df2e778dc2558e2e339fcb4ed25cc4c7a8314823c660cdd68c44def233"
+    },
+    "game06.pck.gz.part1": {
+      "bytes": 8318864,
+      "sha256": "32c03f3948faae0be9a632277520a211e1f07b3a5fe354485ab395cc4934f265"
+    },
+    "game06.png": {
+      "bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    "game06.service.worker.js": {
+      "bytes": 6921,
+      "sha256": "a08e7f66834c6ff21ba84aba018962194221736592178ee616f9f34d71172cec"
+    },
+    "game06.wasm.gz.part0": {
+      "bytes": 10093002,
+      "sha256": "581326ccecb2a9ff88bba15504a010e1621db52dbe1a8a489f2254d7e917f5e0"
+    },
     "GODOT-LICENSES.txt": {
       "bytes": 105858,
       "sha256": "12bd440ba66a447111a414d5a90073e8ce405f1ba97cf40b0b1696e51b02b67f"
     },
-    "index.144x144.png": {
-      "bytes": 8784,
-      "sha256": "1b42cde46e1ae4d1019bffc37f37c3dfaa106763a9f677c20fac1c11a95a4cf6"
-    },
-    "index.180x180.png": {
-      "bytes": 13366,
-      "sha256": "c0d84139dec898418bade6f3250bd423b31c073477271d26b54cf5dcc4909875"
-    },
-    "index.512x512.png": {
-      "bytes": 60113,
-      "sha256": "b8950bb1b80225e332507d01b9f2212dbb604f0a2ac720a2e4a0da2a785fc37d"
-    },
-    "index.audio.position.worklet.js": {
-      "bytes": 2973,
-      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
-    },
-    "index.audio.worklet.js": {
-      "bytes": 7298,
-      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
-    },
     "index.html": {
-      "bytes": 6680,
-      "sha256": "19404595843409736c15770610dacd898eae07cb4111782a3b4357782a6e528b"
-    },
-    "index.js": {
-      "bytes": 314653,
-      "sha256": "1e5437ee16d35bf6f8a3b28e6f70f310ee5da12acab3222a06e8c223cb61757c"
-    },
-    "index.manifest.json": {
-      "bytes": 343,
-      "sha256": "ff04f832e7d9370692ab6453a8459a849ea4a1b58da9061e22798ff8249309a1"
-    },
-    "index.offline.html": {
-      "bytes": 971,
-      "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
-    },
-    "index.pck.gz.part0": {
-      "bytes": 20971520,
-      "sha256": "b0e9957a77a23f6469407ee2e6fdbd19e7c0c7e334e6a8547c8a487d68df882c"
-    },
-    "index.pck.gz.part1": {
-      "bytes": 8314552,
-      "sha256": "7458559190a7cb6896798716ed3713e0e81aa2dd7cc2acd6f8ef7db1995ca858"
-    },
-    "index.png": {
-      "bytes": 21443,
-      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+      "bytes": 308,
+      "sha256": "83f98f3455a9250da760a391ddf761b4ea14b433b31ed4169b3f7f7f2dead847"
     },
     "index.service.worker.js": {
-      "bytes": 6848,
-      "sha256": "02a97035b90583837a547968c858682f1683b6b805ac977c822eb40ae368d4e6"
-    },
-    "index.wasm.gz.part0": {
-      "bytes": 10093002,
-      "sha256": "581326ccecb2a9ff88bba15504a010e1621db52dbe1a8a489f2254d7e917f5e0"
+      "bytes": 6921,
+      "sha256": "a08e7f66834c6ff21ba84aba018962194221736592178ee616f9f34d71172cec"
     },
     "LICENSE-FX.md": {
       "bytes": 670,
