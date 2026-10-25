@@ -1,0 +1,7 @@
+Sandstone Dungeon and Character Pack — Kartoy
+https://kartoy.itch.io/32x32sandstone-dungeon-and-character-pack
+Verified 2026-10-23.
+
+Author license: tiles and sprites may be edited and used in personal and commercial projects. Do not resell them as assets, including edited versions. Credit is appreciated, not required.
+
+This game credits Kartoy. Originals copied from the user-supplied local asset library; see source.json for byte hashes and original paths. Game scene composition, visual choreography and Godot code are project additions. Original pack supplies idle frames, not complete walking/attack sequences; those movements are implemented through sprite parts in code.
