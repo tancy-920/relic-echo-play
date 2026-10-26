@@ -4,24 +4,24 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = 'github-0.7.1-2';
+const CACHE_VERSION = 'github-0.7.2-2';
 /** @type {string} */
 const CACHE_PREFIX = '遗器回响 · 战斗雏形-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
 /** @type {string} */
-const OFFLINE_URL = 'game071.offline.html';
+const OFFLINE_URL = 'game072.offline.html';
 /** @type {boolean} */
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["game071a.html","game071.html","game071.js","game071.offline.html","game071.audio.worklet.js","game071.audio.position.worklet.js"];
+const CACHED_FILES = ["game072a.html","game072.html","game072.js","game072.offline.html","game072.audio.worklet.js","game072.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
-const CACHEABLE_FILES = ["game071.wasm","game071.pck"];
+const CACHEABLE_FILES = ["game072.wasm","game072.pck"];
 const FULL_CACHE = CACHED_FILES.concat(CACHEABLE_FILES);
 
 // Reassemble the official engine/data without a custom hosting API.
-const GAME_PARTS = {"game071.pck": ["game071.pck.gz.part0", "game071.pck.gz.part1"], "game071.wasm": ["game071.wasm.gz.part0"]};
+const GAME_PARTS = {"game072.pck": ["game072.pck.gz.part0", "game072.pck.gz.part1"], "game072.wasm": ["game072.wasm.gz.part0"]};
 async function fetchGameAsset(request) {
  const address=new URL(request.url);
  const name=address.pathname.slice(address.pathname.lastIndexOf('/')+1);

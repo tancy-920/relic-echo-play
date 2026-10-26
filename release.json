@@ -1,7 +1,6 @@
 {
-  "version": "0.7.1",
-  "packaging_revision": 2,
-  "status": "release_candidate",
+  "version": "0.7.2",
+  "status": "candidate_not_published",
   "threaded": true,
   "pwa": true,
   "files": {
@@ -9,65 +8,65 @@
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "game071.144x144.png": {
+    "game072.144x144.png": {
       "bytes": 8784,
       "sha256": "1b42cde46e1ae4d1019bffc37f37c3dfaa106763a9f677c20fac1c11a95a4cf6"
     },
-    "game071.180x180.png": {
+    "game072.180x180.png": {
       "bytes": 13366,
       "sha256": "c0d84139dec898418bade6f3250bd423b31c073477271d26b54cf5dcc4909875"
     },
-    "game071.512x512.png": {
+    "game072.512x512.png": {
       "bytes": 60113,
       "sha256": "b8950bb1b80225e332507d01b9f2212dbb604f0a2ac720a2e4a0da2a785fc37d"
     },
-    "game071.audio.position.worklet.js": {
+    "game072.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "game071.audio.worklet.js": {
+    "game072.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
-    "game071.html": {
-      "bytes": 8308,
-      "sha256": "217aca3b7cbb2f2eed159540151d2d67fca8c34040ecd3c9f33ac5ec9ce5365b"
+    "game072.html": {
+      "bytes": 8335,
+      "sha256": "2d9a097ed3e8a17f87398fb81d8b7e82235a20f642dca2aa85e027983c5ec7d7"
     },
-    "game071.js": {
+    "game072.js": {
       "bytes": 314653,
       "sha256": "1e5437ee16d35bf6f8a3b28e6f70f310ee5da12acab3222a06e8c223cb61757c"
     },
-    "game071.manifest.json": {
+    "game072.manifest.json": {
       "bytes": 351,
-      "sha256": "5463d6f3579f5b843da9cdcf4897172661881c809dca4326e7ec5144667bad33"
+      "sha256": "406bead03c8bc078acf6315338137d0693d08a726aeb24e4752b5500f5a7441b"
     },
-    "game071.offline.html": {
+    "game072.offline.html": {
       "bytes": 971,
       "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
     },
-    "game071.pck.gz.part0": {
+    "game072.pck.gz.part0": {
       "bytes": 20971520,
-      "sha256": "8ddac614a857fbe6eae4685d1621c3d818ad878f23e11bd3abfd82ad1f7938ce"
+      "sha256": "4cd94973d8cee63a0efd358b57b495f255ace90222bc1078d12d97eeeb55ffb9"
     },
-    "game071.pck.gz.part1": {
-      "bytes": 8326480,
-      "sha256": "e81de26f45a4c3c79709e2e25da4348e3296f63cacaf33c08863cc03234d4b2d"
+    "game072.pck.gz.part1": {
+      "bytes": 8333869,
+      "sha256": "680c50e14cc1815e24c52ddc284917dbf0b4f9e42706da1a61e563d149862825"
     },
-    "game071.png": {
+    "game072.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "game071.service.worker.js": {
+    "game072.service.worker.js": {
       "bytes": 6950,
-      "sha256": "bbd0305db0ce708ede5954d5d67596041b4fc61060eada8b0d6711472f5d5271"
+      "sha256": "5291c2685da89792a9e45a0a904d5f99b0aa0424292740e6304afb97d08548f1"
     },
-    "game071.wasm.gz.part0": {
+    "game072.wasm.gz.part0": {
       "bytes": 10093002,
       "sha256": "581326ccecb2a9ff88bba15504a010e1621db52dbe1a8a489f2254d7e917f5e0"
     },
-    "game071a.html": {
-      "bytes": 8308,
-      "sha256": "217aca3b7cbb2f2eed159540151d2d67fca8c34040ecd3c9f33ac5ec9ce5365b"
+    "game072a.html": {
+      "bytes": 8335,
+      "sha256": "2d9a097ed3e8a17f87398fb81d8b7e82235a20f642dca2aa85e027983c5ec7d7"
     },
     "GODOT-LICENSES.txt": {
       "bytes": 105858,
@@ -75,11 +74,11 @@
     },
     "index.html": {
       "bytes": 312,
-      "sha256": "ffbf0d4ff054b8be29f3a6c8e43b9c884f48222c4aed5181626b2361ade55d25"
+      "sha256": "f5f9c435080ae63502200b55eb28bfffad7458cde3f291675b16e5cf7f1593c2"
     },
     "index.service.worker.js": {
       "bytes": 6950,
-      "sha256": "bbd0305db0ce708ede5954d5d67596041b4fc61060eada8b0d6711472f5d5271"
+      "sha256": "5291c2685da89792a9e45a0a904d5f99b0aa0424292740e6304afb97d08548f1"
     },
     "LICENSE-FX.md": {
       "bytes": 670,
