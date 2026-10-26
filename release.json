@@ -1,6 +1,7 @@
 {
   "version": "0.7.1",
-  "status": "candidate_not_published",
+  "packaging_revision": 2,
+  "status": "release_candidate",
   "threaded": true,
   "pwa": true,
   "files": {
@@ -29,8 +30,8 @@
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     "game071.html": {
-      "bytes": 6767,
-      "sha256": "f184464a5a5dcbc73aa884ce867ac390e0e74fae5b9fa18eb00697dfb859b310"
+      "bytes": 8308,
+      "sha256": "217aca3b7cbb2f2eed159540151d2d67fca8c34040ecd3c9f33ac5ec9ce5365b"
     },
     "game071.js": {
       "bytes": 314653,
@@ -57,24 +58,28 @@
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
     "game071.service.worker.js": {
-      "bytes": 6934,
-      "sha256": "2cfee23806d20fd8bf4227f8eca5612c6e69e4f125f146536791dc0f9e6cfe6b"
+      "bytes": 6950,
+      "sha256": "bbd0305db0ce708ede5954d5d67596041b4fc61060eada8b0d6711472f5d5271"
     },
     "game071.wasm.gz.part0": {
       "bytes": 10093002,
       "sha256": "581326ccecb2a9ff88bba15504a010e1621db52dbe1a8a489f2254d7e917f5e0"
+    },
+    "game071a.html": {
+      "bytes": 8308,
+      "sha256": "217aca3b7cbb2f2eed159540151d2d67fca8c34040ecd3c9f33ac5ec9ce5365b"
     },
     "GODOT-LICENSES.txt": {
       "bytes": 105858,
       "sha256": "12bd440ba66a447111a414d5a90073e8ce405f1ba97cf40b0b1696e51b02b67f"
     },
     "index.html": {
-      "bytes": 310,
-      "sha256": "9bd315c491bc51aa6e50ec4914245b3dc1cbfdbee966827ba9ba2b7bc0944a58"
+      "bytes": 312,
+      "sha256": "ffbf0d4ff054b8be29f3a6c8e43b9c884f48222c4aed5181626b2361ade55d25"
     },
     "index.service.worker.js": {
-      "bytes": 6934,
-      "sha256": "2cfee23806d20fd8bf4227f8eca5612c6e69e4f125f146536791dc0f9e6cfe6b"
+      "bytes": 6950,
+      "sha256": "bbd0305db0ce708ede5954d5d67596041b4fc61060eada8b0d6711472f5d5271"
     },
     "LICENSE-FX.md": {
       "bytes": 670,

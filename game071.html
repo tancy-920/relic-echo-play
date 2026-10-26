@@ -117,7 +117,7 @@ const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"e
 const GODOT_THREADS_ENABLED = true;
 const engine = new Engine(GODOT_CONFIG);
 
-(function () {
+(async function () {
 	const statusOverlay = document.getElementById('status');
 	const statusProgress = document.getElementById('status-progress');
 	const statusNotice = document.getElementById('status-notice');
@@ -163,6 +163,34 @@ const engine = new Engine(GODOT_CONFIG);
 		setStatusMode('notice');
 		initializing = false;
 	}
+
+	// Install this release even when an older worker already provides isolation.
+	try {
+	 const targetWorker = new URL(GODOT_CONFIG.serviceWorker, location.href).href;
+	 const previousController = navigator.serviceWorker.controller;
+	 const registration = await navigator.serviceWorker.register(targetWorker);
+	 const pending = registration.installing || registration.waiting;
+	 if (pending && pending.state !== 'activated') {
+	  await new Promise((resolve,reject)=>{
+	   const timer=setTimeout(()=>reject(new Error('游戏更新超时，请刷新重试。')),30000);
+	   const check=()=>{
+	    if(pending.state==='activated'){clearTimeout(timer);resolve();}
+	    else if(pending.state==='redundant'){clearTimeout(timer);reject(new Error('游戏更新失败，请刷新重试。'));}
+	   };
+	   pending.addEventListener('statechange',check);check();
+	  });
+	 }
+	 if (!navigator.serviceWorker.controller || navigator.serviceWorker.controller.scriptURL !== targetWorker) {
+	  await new Promise((resolve,reject)=>{
+	   const timer=setTimeout(()=>reject(new Error('游戏加载器更新超时，请刷新重试。')),30000);
+	   const check=()=>{if(navigator.serviceWorker.controller?.scriptURL===targetWorker){clearTimeout(timer);resolve();}};
+	   navigator.serviceWorker.addEventListener('controllerchange',check);check();
+	  });
+	 }
+	 if (!previousController || previousController.scriptURL !== targetWorker || pending) {
+	  location.reload();return;
+	 }
+	} catch(error) {displayFailureNotice(error);return;}
 
 	const missing = Engine.getMissingFeatures({
 		threads: GODOT_THREADS_ENABLED,

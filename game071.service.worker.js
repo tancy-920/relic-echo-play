@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = 'github-0.7.1-1';
+const CACHE_VERSION = 'github-0.7.1-2';
 /** @type {string} */
 const CACHE_PREFIX = '遗器回响 · 战斗雏形-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
@@ -14,7 +14,7 @@ const OFFLINE_URL = 'game071.offline.html';
 const ENSURE_CROSSORIGIN_ISOLATION_HEADERS = true;
 // Files that will be cached on load.
 /** @type {string[]} */
-const CACHED_FILES = ["game071.html","game071.js","game071.offline.html","game071.audio.worklet.js","game071.audio.position.worklet.js"];
+const CACHED_FILES = ["game071a.html","game071.html","game071.js","game071.offline.html","game071.audio.worklet.js","game071.audio.position.worklet.js"];
 // Files that we might not want the user to preload, and will only be cached on first load.
 /** @type {string[]} */
 const CACHEABLE_FILES = ["game071.wasm","game071.pck"];
