@@ -1,5 +1,5 @@
 {
-  "version": "0.7.0",
+  "version": "0.7.1",
   "status": "candidate_not_published",
   "threaded": true,
   "pwa": true,
@@ -8,59 +8,59 @@
       "bytes": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
-    "game07.144x144.png": {
+    "game071.144x144.png": {
       "bytes": 8784,
       "sha256": "1b42cde46e1ae4d1019bffc37f37c3dfaa106763a9f677c20fac1c11a95a4cf6"
     },
-    "game07.180x180.png": {
+    "game071.180x180.png": {
       "bytes": 13366,
       "sha256": "c0d84139dec898418bade6f3250bd423b31c073477271d26b54cf5dcc4909875"
     },
-    "game07.512x512.png": {
+    "game071.512x512.png": {
       "bytes": 60113,
       "sha256": "b8950bb1b80225e332507d01b9f2212dbb604f0a2ac720a2e4a0da2a785fc37d"
     },
-    "game07.audio.position.worklet.js": {
+    "game071.audio.position.worklet.js": {
       "bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
-    "game07.audio.worklet.js": {
+    "game071.audio.worklet.js": {
       "bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
-    "game07.html": {
-      "bytes": 6758,
-      "sha256": "ccaa070101a0b4eb76008b6c6e32571639cecf0c7cb60067429f6ff800400c07"
+    "game071.html": {
+      "bytes": 6767,
+      "sha256": "f184464a5a5dcbc73aa884ce867ac390e0e74fae5b9fa18eb00697dfb859b310"
     },
-    "game07.js": {
+    "game071.js": {
       "bytes": 314653,
       "sha256": "1e5437ee16d35bf6f8a3b28e6f70f310ee5da12acab3222a06e8c223cb61757c"
     },
-    "game07.manifest.json": {
-      "bytes": 347,
-      "sha256": "bb331c30e112c6cd60baa6c99739b3dea61f7dcb250027ada5ae291a81666633"
+    "game071.manifest.json": {
+      "bytes": 351,
+      "sha256": "5463d6f3579f5b843da9cdcf4897172661881c809dca4326e7ec5144667bad33"
     },
-    "game07.offline.html": {
+    "game071.offline.html": {
       "bytes": 971,
       "sha256": "b0a5d443e78f58717adac780bac91c1431bfa3b801c41f4707d507fb5ad2e47f"
     },
-    "game07.pck.gz.part0": {
+    "game071.pck.gz.part0": {
       "bytes": 20971520,
-      "sha256": "31e337fbdbdd13cdbaf43edecb65e25eadbdc5de6f15a075d9880ad723d2663c"
+      "sha256": "8ddac614a857fbe6eae4685d1621c3d818ad878f23e11bd3abfd82ad1f7938ce"
     },
-    "game07.pck.gz.part1": {
-      "bytes": 8322365,
-      "sha256": "c4b26be8d583e4a6cf3d2a4590c870a132377e38254238e65637d910d6f56370"
+    "game071.pck.gz.part1": {
+      "bytes": 8326480,
+      "sha256": "e81de26f45a4c3c79709e2e25da4348e3296f63cacaf33c08863cc03234d4b2d"
     },
-    "game07.png": {
+    "game071.png": {
       "bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
-    "game07.service.worker.js": {
-      "bytes": 6921,
-      "sha256": "fcbd83e76832ea3599924dfd4d13d54aa59b9e08aadabc1ed0d09942152c78ad"
+    "game071.service.worker.js": {
+      "bytes": 6934,
+      "sha256": "2cfee23806d20fd8bf4227f8eca5612c6e69e4f125f146536791dc0f9e6cfe6b"
     },
-    "game07.wasm.gz.part0": {
+    "game071.wasm.gz.part0": {
       "bytes": 10093002,
       "sha256": "581326ccecb2a9ff88bba15504a010e1621db52dbe1a8a489f2254d7e917f5e0"
     },
@@ -69,12 +69,12 @@
       "sha256": "12bd440ba66a447111a414d5a90073e8ce405f1ba97cf40b0b1696e51b02b67f"
     },
     "index.html": {
-      "bytes": 308,
-      "sha256": "fa9d15273d00bf54888d7b418416f076aac7e38f67f1b96de2fd7efdc8e7dabd"
+      "bytes": 310,
+      "sha256": "9bd315c491bc51aa6e50ec4914245b3dc1cbfdbee966827ba9ba2b7bc0944a58"
     },
     "index.service.worker.js": {
-      "bytes": 6921,
-      "sha256": "fcbd83e76832ea3599924dfd4d13d54aa59b9e08aadabc1ed0d09942152c78ad"
+      "bytes": 6934,
+      "sha256": "2cfee23806d20fd8bf4227f8eca5612c6e69e4f125f146536791dc0f9e6cfe6b"
     },
     "LICENSE-FX.md": {
       "bytes": 670,
